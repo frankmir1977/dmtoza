@@ -1,0 +1,102 @@
+p:target{
+    background-color: burlywood;
+    scroll-margin-top: 40px;
+    transition-duration: 1s;
+    outline-offset: 15px;
+    outline: 2dvb dotted red;
+    outline-width: 4px;
+    
+
+}
+p:target::selection{
+    background-color: lightblue;
+    color: red;
+}
+
+nav{
+   
+    background-color: chocolate;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    top: 0;
+    
+}
+
+div{
+    padding-top: 50px;
+}
+
+button:focus{
+    background-color: navy;
+    color: white;
+}
+
+:focus{
+    background-color: lightblue;
+    border-color: red;
+    
+    
+}
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+   
+    color: rgb(8, 7, 7);
+}
+
+a:active{
+    color: red;
+}
+
+a:focus{
+    color: blue;
+    background-color: lightblue;
+    
+}
+
+.abc{
+    width: 100%;
+    height: 200px;
+    background-color: burlywood;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px #33659b;
+}
+
+.abc:hover{
+    box-shadow: 10px 10px 10px #4088d4;
+    transition-duration: 3s;
+}
+
+p:not([id]){
+    background-color: gray;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+p::first-letter{
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+
+}
+
+ul:focus-within{
+    background-color: rgb(231, 231, 213);
+    color: black;
+}
+
+li:focus{
+    background-color: lightsalmon;
+    outline: dotted red;
+    outline-offset: 2px;
+}
+
+
